@@ -1,19 +1,9 @@
-## 📸 Application Screenshots
+![Login Page](https://raw.githubusercontent.com/anandakrishnan8803/React-Add-To-Cart/main/screenshots/login.png.png)
 
-### 1. Login Page
-![Login Page](screenshots/login.png)
+![Product Details](https://raw.githubusercontent.com/anandakrishnan8803/React-Add-To-Cart/main/screenshots/details.png.png)
 
-### 2. Home Page
-![Home Page](screenshots/Home.png)
+![Read More](https://raw.githubusercontent.com/anandakrishnan8803/React-Add-To-Cart/main/screenshots/readmore.png.png)
 
-### 3. Product Details
-![Product Details](screenshots/details.png)
+![Shopping Cart](https://raw.githubusercontent.com/anandakrishnan8803/React-Add-To-Cart/main/screenshots/cart.png.png)
 
-### 4. Read More Page
-![Read More Page](screenshots/readmore.png)
-
-### 5. Shopping Cart
-![Shopping Cart](screenshots/cart.png)
-
-### 6. Item Removal
-![Item Removal](screenshots/item_removal.png)
+![Item Removal](https://raw.githubusercontent.com/anandakrishnan8803/React-Add-To-Cart/main/screenshots/item_removal.png.png)
