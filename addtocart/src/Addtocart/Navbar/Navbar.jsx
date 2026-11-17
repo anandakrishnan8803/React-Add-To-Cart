@@ -6,6 +6,10 @@ const Navbar = ({cartcount}) => {
   return (
     <div>
       <div className="navbar_container">
+        <div className="logo">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h1>MY CART</h1>
+        </div>
         <div className="container">
             <Link to="/product">Product</Link>
             <div className="cartcount">
