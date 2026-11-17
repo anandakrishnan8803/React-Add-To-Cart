@@ -1,16 +1,95 @@
-# React + Vite
+# 🛒 React Add to Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive shopping application built using React.js. This project allows users to browse products, view product details, and manage their shopping cart.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse available products
+- View individual product details
+- Add products to the shopping cart
+- Remove products from the cart
+- Login and Signup pages
+- Responsive user interface
+- Dynamic product rendering
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** – Frontend library
+- **JavaScript** – Application logic
+- **HTML5** – Structure
+- **CSS3** – Styling
+- **React Router DOM** – Navigation
+- **Axios** – API requests
+- **Vite** – Development environment
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+React-Add-To-Cart/
+│
+├── README.md
+├── .gitignore
+│
+└── addtocart/
+    ├── public/
+    ├── src/
+    │   ├── Addtocart/
+    │   │   ├── Cart/
+    │   │   ├── Home/
+    │   │   ├── Login/
+    │   │   ├── Navbar/
+    │   │   ├── Product/
+    │   │   ├── Readmore/
+    │   │   └── Signup/
+    │   │
+    │   ├── App.jsx
+    │   ├── App.css
+    │   └── main.jsx
+    │
+    ├── package.json
+    └── index.html
+```
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/anandakrishnan8803/React-Add-To-Cart.git
+```
+
+2. Navigate to the React project:
+
+```bash
+cd React-Add-To-Cart/addtocart
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in your terminal.
+
+## 🎯 Project Purpose
+
+This project was developed to practice React.js concepts, component-based architecture, API integration, routing, and state management through a practical shopping application.
+
+## 👨‍💻 Developer
+
+**Anandakrishnan Aji**
+
+Full Stack Developer | MERN Stack
+
+GitHub: [@anandakrishnan8803](https://github.com/anandakrishnan8803)
+
+---
+
+⭐ If you like this project, feel free to star the repository!
