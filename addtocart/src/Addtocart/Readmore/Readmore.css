@@ -1,0 +1,19 @@
+.readmecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  .conatiner{
+    border: 1px solid rgb(184, 183, 183);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  img{
+    width: 100px;
+    height: 110px;
+  }
+}

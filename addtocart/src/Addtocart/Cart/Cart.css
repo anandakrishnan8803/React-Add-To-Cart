@@ -1,0 +1,44 @@
+.cart-container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 40px 0;
+}
+
+.cart-table {
+    border: 2px solid black;
+  width: 100%;   /* 🔥 Full width */
+  border-collapse: collapse;
+  background: white;
+  border-radius: 0;   /* optional: remove rounded edges for full stretch */
+  box-shadow: none;   /* optional: remove side shadow */
+}
+
+.cart-table thead {
+  background: #2a5298;
+  color: white;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.cart-table tbody tr:hover {
+  background: #f4f7ff;
+}
+
+.cart-table img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.price {
+  font-weight: bold;
+  color: #28a745;
+}
+img{
+    height: 50px;
+}

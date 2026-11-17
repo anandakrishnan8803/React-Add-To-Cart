@@ -1,0 +1,87 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar_container {
+  width: 100%;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  padding: 5px 0;
+  transition: 0.3s ease;
+}
+
+/* Hover underline animation */
+.container a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  background: #00f2fe;
+  transition: 0.4s ease;
+  border-radius: 10px;
+}
+
+.container a:hover {
+  color: #00f2fe;
+}
+
+.container a:hover::after {
+  width: 100%;
+}
+
+/* Active effect */
+.container a:active {
+  transform: scale(0.95);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    gap: 25px;
+  }
+
+  .container a {
+    font-size: 16px;
+  }
+  
+}
+
+.cartcount{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+ .cartcount h2 {
+  padding-top: 10px;
+  color: white;
+  font-size: 19px;
+}

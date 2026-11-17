@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.productscontainer {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 50px 0;
+}
+
+.productscontainer .container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.products {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.products:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* ID Badge */
+.products span {
+  background: #4e73df;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.products h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  height: 45px;
+  overflow: hidden;
+}
+
+/* Image */
+.products img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin: 15px 0;
+  transition: transform 0.3s ease;
+}
+
+.products:hover img {
+  transform: scale(1.05);
+}
+
+/* Category */
+.products h4:nth-of-type(1) {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+/* Description */
+.products p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  height: 60px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+/* Price */
+.products h4:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+/* 🔥 Add To Cart Button */
+.add-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(40, 167, 69, 0.3);
+}
+
+.add-btn:active {
+  transform: scale(0.95);
+}

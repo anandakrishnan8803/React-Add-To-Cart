@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.signup-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .signup{
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        height: 360px;
+        flex-direction: column;
+        display: flex;justify-content: center;
+        align-items: center;
+        input{
+            border-radius: 5px;
+            padding: 4px;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        button{
+            margin-left: 20px;
+            padding: 7px;
+            border-radius: 5px;
+            width: 160px;
+        }
+    }
+}
